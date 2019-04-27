@@ -1,0 +1,17 @@
+    {
+        "name": "SimpleVendor/CartAttribs",
+        "description": "Adds additional attributes to the cart page.",
+        "type": "magento2-module",
+        "version": "0.5.0",
+        "license": [
+            "commercial"
+        ],
+        "autoload": {
+            "files": [
+                "registration.php"
+            ],
+            "psr-4": {
+                "SimpleVendor\\CartAttribs\\": ""
+            }
+        }
+    }
